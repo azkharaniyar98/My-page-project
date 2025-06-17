@@ -26,7 +26,7 @@ nav {
 
 nav li:hover{
     background-color: rgb(116, 31, 213);
-    padding: 5px;
+    padding: px;
     border-radius: 5px;
 }
 
@@ -75,7 +75,8 @@ h1 {
     text-align: center;
     font-family: fantasy;
     font-size: 50px;
-    padding: 10px;
+    padding: 0px;
+    margin: 5px;
 }
 
 a {
@@ -87,51 +88,4 @@ a {
     display: flex;
     align-items: center;
     gap: 20px;
-}
-
-.favorite-box {
-    color: white;
-    border-radius: 50px;
-    width: 80%;
-    max-width: 1000px;
-    margin: 0 auto;
-    box-shadow: 0 10px 20px black;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 55px;
-    padding: 45px;
-}
-
-.favorite-box img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50px;   
-}
-
-.third-page {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    border: 3px solid black;
-    margin: 50px;
-    box-shadow: 0 10px 20px black;
-}
-
-.music p {
-    border: 3px solid black;
-    box-shadow: 0 10px 20px black;
-    border-radius: 0 30px 0 30px;
-    text-align: left;
-    font-family: fantasy;
-    font-size: 30px;
-    padding: 100px;
-    margin: 40px;
-}
-
-.third-page h1 {
-    font-family: fantasy;
-    font-size: 100px;
-    text-align: center;
-
-}
+}  

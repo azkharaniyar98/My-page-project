@@ -1,7 +1,10 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="project.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="second-page.css">
+        <link rel="stylesheet" href="third-page.css">
+        <link rel="stylesheet" href="fourth-page.css">
         <title>Azkhar's playlist</title>
     </head>
     <body>
@@ -69,7 +72,7 @@
         </section>
 
         <section class="third-page">  
-          <h1>WHY I<br>LOVE<br>MUSIC</h1>
+          <h1>MUSIC<br>FOR<br>ME</h1>
           <div class="music">
             <p>"I like music because it speaks to me in a way that words alone never could. Whether 
               I'm feeling happy, sad, motivated, or lost, there's always a song that matches 
@@ -80,5 +83,23 @@
             </p>
           </div>
         </section>
+
+        <section class="fourth-page">
+            <h1>Share Your Top 6 Songs</h1>
+            <form class="simple-form" action="thankyou.html" target="_blank">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Name" required>
+          
+              <label>Your Top 6 Songs</label>
+              <input type="text" name="song1" placeholder="1. Song Title - Artist" required>
+              <input type="text" name="song2" placeholder="2. Song Title - Artist" required>
+              <input type="text" name="song3" placeholder="3. Song Title - Artist" required>
+              <input type="text" name="song4" placeholder="4. Song Title - Artist" required>
+              <input type="text" name="song5" placeholder="5. Song Title - Artist" required>
+              <input type="text" name="song6" placeholder="6. Song Title - Artist" required>
+          
+              <button type="submit">Submit</button>
+            </form>
+        </section>        
     </body>
 </html>

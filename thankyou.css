@@ -1,0 +1,30 @@
+body {
+    background-image: url('thankyou-picture/otf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    margin: 0;
+    font-family: fantasy;
+    text-align: center;
+    padding: 50px;
+  }
+
+  .thank-you-message {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    font-size: 100px;
+    color: whitesmoke;
+  }
+
+  p {
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+  }

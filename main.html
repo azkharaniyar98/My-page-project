@@ -10,22 +10,27 @@
     <body>
         <nav>
           <div class="nav-left">
-            <img class="top-logo" src="picture/download.png">
-            <h3>Azkhar' s Playlist</h3>
-          </div>  
-          <ul>
+            <img class="top-logo" src="picture/download.png" alt="Azkhar's logo">
+            <h3>Azkhar's Playlist</h3>
+          </div>
+          
+          <input type="checkbox" id="menu-toggle" class="menu-toggle">
+          <label for="menu-toggle" class="hamburger">&#9776;</label>
+          
+          <ul class="nav-right">
             <li>Home</li>
             <li>Playlist</li>
             <li>About Me</li>
             <li>Contact</li>
           </ul>
         </nav>
-        <main class="first-page">
+
+        <main class="first-page container">
           <div class="welcome-text">
             <h1>WELCOME<br>TO MY<br>MUSIC<br>GALLERY</h1>
           </div>
           <div class="first-picture">
-            <img src="picture/first-page.jpg">
+            <img src="picture/first-page.jpg" alt="big-picture">
           </div>
         </main>
 
@@ -141,7 +146,7 @@
 
         <section class="fourth-page">
             <h1>Share Your Top 6 Songs</h1>
-            <form class="simple-form" action="thankyou.html" target="_blank">
+            <form class="form" action="thankyou.html" target="_blank">
               <label for="name">Your Name</label>
               <input type="text" id="name" name="name" placeholder="Name" required>
           

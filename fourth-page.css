@@ -1,55 +1,73 @@
 .fourth-page {
-    background-color: slateblue;
-    padding: 30px;
-    text-align: center;
-  }
-  
-  .fourth-page h1 {
-    font-size: 50px;
-    margin-bottom: 50px;
-  }
-  
-  .simple-form {
-    max-width: 400px;
-    margin-left: 1000px;
-    text-align: left;
-    background-color: slateblue;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 20px 30px black;
-  }
-  
-  .simple-form label {
-    font-family: fantasy;
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-    color: white;
-  }
+  background-color: slateblue;
+  padding: 80px;
+  text-align: center;
+}
 
-  .simple-form input {
-    background-color: white;
-    color: black;
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border: 1px solid black;
-    border-radius: 5px;
-  }
-  
-  .simple-form button {
-    width: 100%;
-    padding: 10px;
-    background-color: #222;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-top: 15px;
-    cursor: pointer;
-  }
-  
-  .simple-form button:hover {
-    background-color: #444;
-  }
+.fourth-page h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-family: fantasy;
+  font-size: 24px;
+  text-align: 100px; 
+  max-width: 400px;
+  margin-left: 1000px; 
+}
+
+.content-wrapper {
+  display: flex;
+  font-family: fantasy;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+
+
+.form {
+  max-width: 400px;
+  margin-left: 1000px;
+  text-align: left;
+  background-color: slateblue;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px pink;
+}
+
+.form label {
+  font-family: fantasy;
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.form input {
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 15px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px purple;
+}
+
+.form button:hover {
+  background-color: #444;
+}
+

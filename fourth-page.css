@@ -1,6 +1,6 @@
 .fourth-page {
   background-color: slateblue;
-  padding: 80px;
+  padding: 85px 20px;
   text-align: center;
 }
 
@@ -9,9 +9,6 @@
   margin-bottom: 20px;
   font-family: fantasy;
   font-size: 24px;
-  text-align: 100px; 
-  max-width: 400px;
-  margin-left: 1000px; 
 }
 
 .content-wrapper {
@@ -26,10 +23,10 @@
 
 
 .form {
-  max-width: 400px;
-  margin-left: 1000px;
+  max-width: 500px;
+  margin: 0 auto;
   text-align: left;
-  background-color: slateblue;
+  background-color: #6a5acd;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 20px 30px pink;
@@ -57,7 +54,7 @@
 .form button {
   width: 100%;
   padding: 10px;
-  background-color: #222;
+  background-color: black;
   color: white;
   border: none;
   border-radius: 5px;
@@ -67,7 +64,17 @@
   box-shadow: 0 10px 20px purple;
 }
 
-.form button:hover {
-  background-color: #444;
-}
 
+@media (max-width: 768px) {
+  .fourth-page {
+    padding: 40px 10px;
+  }
+
+  .fourth-page h1 {
+    font-size: 22px;
+  }
+
+  .form {
+    padding: 15px;
+  }
+}
